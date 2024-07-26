@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+<p align="center">
+   <img src="https://i.ibb.co/tcBVGfH/banner-tailwind-react.png" alt="Logo do Projeto" width="550" height="300">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Autenticação no NextJS com a biblioteca Auth.js
 
-Currently, two official plugins are available:
+Este repositório contém um exemplo de implementação de um projeto React inicializado com Vite e estilização com o Tailwind. Esse conteúdo é complementar ao post realizado, onde o passo a passo é descrito.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Visão Geral
 
-## Expanding the ESLint configuration
+Neste projeto, criamos uma aplicação React com Vite e instalamos o Tailwind CSS para estilizar os componentes. Alguns exemplos são construídos e exibidos para demonstração.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Requisitos
 
-- Configure the top-level `parserOptions` property like this:
+- Node.js 20.x ou superior
+- npm ou yarn
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Instalação
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/seu-usuario/tailwind-react.git
+   cd tailwind-react
+   ```
+   
+2. Instale as dependências:
+
+   ```bash
+   npm install
+   ```
+3. Executando a Aplicação
+
+   As instruções de como construir essa aplicação, estão detalhadas no post citado anteriormente.
+
+## Considerações
+
+Esta implementação serve como uma base para construir sistemas de autenticação mais complexos e seguros. Para mais detalhes sobre as funcionalidades do Auth.js, consulte a documentação oficial.
